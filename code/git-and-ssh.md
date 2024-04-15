@@ -2,8 +2,9 @@
 created: [2024-04-12]()
 
 ---
+# Git and SSH
 
-Setting up GitHub on Mac
+## Setting up GitHub on Mac
 
 ```shell
 
@@ -28,7 +29,7 @@ $ ssh -T git@thyhonor.github
 
 ```
 
-Change remote URLs in a repository accordingly:
+## Change remote URLs in a repository accordingly:
 
 ```shell
 
@@ -40,7 +41,7 @@ $ git remote set-url origin git@HOST:USERNAME/REPOSITORY.git
 
 ```
 
-View other Git configs (local v/s global v/s system):
+## View other Git configs (local v/s global v/s system):
 
 ```shell
 
@@ -56,7 +57,7 @@ $ git config user.email "john@doe.org"
 
 ---
 
-Commands related to the SSH agent:
+## Commands related to the SSH agent:
 ```shell
 
 # Start the SSH agent (if needed)
@@ -73,6 +74,8 @@ $ ssh-add ~/.ssh/sshkeywithoutpub
 $ ssh-add -D
 
 ```
+
+---
 
 ### To do:
 - Check more about Agent Forwarding (for any security best practices)
