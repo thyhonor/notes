@@ -5,4 +5,4 @@ Welcome!
 Index:
 
 ## Code
-- [Git and SSH](<code/Git and SSH>)
+- [Git and SSH](<code/Git and SSH.md>)
