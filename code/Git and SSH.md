@@ -1,4 +1,3 @@
-# Git and SSH
 
 Created: [[2024-04-12]]
 
